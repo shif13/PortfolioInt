@@ -6,44 +6,37 @@ const projects = [
   {
     id: 1,
     number: "01",
-    title: "E-Commerce Platform",
-    category: "React × TypeScript",
-    imageUrl: "https://images.unsplash.com/photo-1753162659724-004dd26e1de3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxib2xkJTIwZGVzaWduJTIwd29ya3xlbnwxfHx8fDE3Njc3Nzc2MzJ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+    title: "ALM to qTest Migration",
+    category: "React × REST APIs",
+    imageUrl: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80"
   },
   {
     id: 2,
     number: "02",
-    title: "Mobile Banking App",
-    category: "React Native",
-    imageUrl: "https://images.unsplash.com/photo-1627213286464-eb0576fc3742?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjcmVhdGl2ZSUyMHBvcnRyYWl0JTIwcGhvdG9ncmFwaHl8ZW58MXx8fHwxNzY3NjgzMTU0fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+    title: "FindHire Portal",
+    category: "React × Node.js",
+    imageUrl: "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=800&q=80"
   },
   {
     id: 3,
     number: "03",
-    title: "Design System",
-    category: "Figma × Storybook",
-    imageUrl: "https://images.unsplash.com/photo-1763671872042-decff1375c06?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxncmFwaGljJTIwZGVzaWduJTIwbW9ja3VwfGVufDF8fHx8MTc2NzcxNDAwN3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+    title: "E-Commerce Platform",
+    category: "React × Node.js",
+    imageUrl: "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&q=80"
   },
   {
     id: 4,
     number: "04",
-    title: "Dashboard Analytics",
-    category: "React × D3.js",
-    imageUrl: "https://images.unsplash.com/photo-1628586431263-44040b966252?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhcnRpc3RpYyUyMHdvcmtzcGFjZXxlbnwxfHx8fDE3Njc3Nzc2MzJ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+    title: "Property Listing App",
+    category: "React × APIs",
+    imageUrl: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80"
   },
   {
     id: 5,
     number: "05",
-    title: "Social Media Platform",
-    category: "Next.js × Tailwind",
-    imageUrl: "https://images.unsplash.com/photo-1553544260-f87e671974ee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmYXNoaW9uJTIwZWRpdG9yaWFsfGVufDF8fHx8MTc2NzY3MDY3Nnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-  },
-  {
-    id: 6,
-    number: "06",
-    title: "Real-time Collaboration",
-    category: "WebSocket × Redux",
-    imageUrl: "https://images.unsplash.com/photo-1723242016990-bd6ac316b139?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBhcnQlMjBpbnN0YWxsYXRpb258ZW58MXx8fHwxNzY3NzY0NTQ0fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+    title: "Event Booking App",
+    category: "React Native",
+    imageUrl: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=800&q=80"
   }
 ];
 

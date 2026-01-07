@@ -5,16 +5,16 @@ import { useRef } from "react";
 const skills = [
   "React.js",
   "JavaScript (ES6+)",
-  "TypeScript",
+  "Node.js",
   "React Native",
-  "Next.js",
-  "Figma",
+  "Express.js",
   "Tailwind CSS",
-  "Redux/Zustand",
   "REST APIs",
-  "GraphQL",
   "Git & GitHub",
-  "Responsive Design"
+  "MySQL",
+  "PostgreSQL",
+  "Prisma ORM",
+  "Firebase"
 ];
 
 const qualities = [
@@ -70,7 +70,7 @@ export function About() {
           </motion.p>
 
           <h2 className="mb-8">
-            Frontend
+            Product
             <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-violet-400">
               Engineer
@@ -94,10 +94,9 @@ export function About() {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
-              I'm a frontend engineer with a passion for creating exceptional 
-              digital experiences. With expertise in React, JavaScript, and modern 
-              web technologies, I transform ideas into performant, scalable applications.
-            </motion.p>
+I'm a product engineer with 2.5 years of experience building full-stack 
+applications. I specialize in React, JavaScript, and Node.js, creating 
+scalable solutions from frontend interfaces to backend APIs.            </motion.p>
 
             <motion.p
               initial={{ opacity: 0, y: 20 }}
@@ -105,10 +104,10 @@ export function About() {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.3 }}
             >
-              My approach combines technical excellence with user-centric design. 
-              Whether it's building responsive web apps with React or crafting native 
-              mobile experiences with React Native, I ensure every line of code serves 
-              a purpose.
+            My experience includes leading frontend development on enterprise migration 
+projects, building marketplace platforms, and developing mobile applications. 
+I've worked across the full development lifecycle—from requirement analysis 
+to deployment and issue resolution.
             </motion.p>
 
             <motion.p
@@ -117,9 +116,10 @@ export function About() {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.4 }}
             >
-              I believe in writing clean, maintainable code and staying updated with 
-              the latest frontend trends. My work speaks through intuitive interfaces, 
-              smooth animations, and seamless user journeys.
+             I thrive in collaborative environments, working with product owners, QA teams, 
+and cross-functional stakeholders to deliver features that solve real problems. 
+My approach combines technical excellence with user-focused design.
+
             </motion.p>
           </motion.div>
 
@@ -206,9 +206,9 @@ export function About() {
           className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-24"
         >
           {[
-            { number: "50+", label: "Projects" },
-            { number: "15+", label: "Clients" },
-            { number: "5", label: "Years Exp" },
+            { number: "10+", label: "Projects" },
+            { number: "3", label: "Clients" },
+            { number: "2.5", label: "Years Exp" },
             { number: "100%", label: "Dedicated" }
           ].map((stat, index) => (
             <motion.div

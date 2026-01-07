@@ -3,9 +3,9 @@ import { Mail, Linkedin, Github, Twitter, Send } from "lucide-react";
 import { useState } from "react";
 
 const socials = [
-  { name: "Email", icon: Mail, handle: "hello@engineer.dev", link: "mailto:hello@engineer.dev" },
-  { name: "LinkedIn", icon: Linkedin, handle: "@frontend-engineer", link: "https://linkedin.com" },
-  { name: "GitHub", icon: Github, handle: "@engineer", link: "https://github.com" },
+  { name: "Email", icon: Mail, handle: "fatimakingsyshibani@gmail.com", link: "mailto:hello@engineer.dev" },
+  { name: "LinkedIn", icon: Linkedin, handle: "@fatimakingsyshibani", link: "https://linkedin.com" },
+  { name: "GitHub", icon: Github, handle: "@shif13", link: "https://github.com" },
   { name: "Twitter", icon: Twitter, handle: "@engineer", link: "https://twitter.com" }
 ];
 
@@ -73,9 +73,8 @@ export function Contact() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-neutral-400 text-lg max-w-2xl mx-auto"
           >
-            Whether you need a frontend developer for your team or want to discuss 
-            a project idea, I'm always open to new opportunities and collaborations.
-          </motion.p>
+Whether you need a product engineer for your team or want to discuss 
+a project idea, I'm open to new opportunities and collaborations.          </motion.p>
         </motion.div>
 
         <div className="grid lg:grid-cols-2 gap-16">

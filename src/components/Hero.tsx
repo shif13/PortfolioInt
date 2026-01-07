@@ -2,8 +2,7 @@ import { motion, useScroll, useTransform } from "motion/react";
 import { useRef, useState } from "react";
 import { ArrowDown, Terminal } from "lucide-react";
 
-const techStack = ["React", "JavaScript", "TypeScript", "React Native", "Figma"];
-
+const techStack = ["React", "JavaScript", "Node.js", "React Native", "Tailwind"];
 export function Hero() {
   const ref = useRef(null);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
@@ -106,7 +105,7 @@ export function Hero() {
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 0.5 }}
           >
-            Frontend Engineer × Problem Solver
+            Product Engineer × Problem Solver
           </motion.p>
           
           <h1 className="mb-8">
@@ -134,9 +133,9 @@ export function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 1 }}
           >
-            Building exceptional digital products with modern web technologies.
-            Specializing in React, JavaScript, and creating seamless user experiences
-            that make a difference.
+            Product Engineer specializing in React, JavaScript, and Node.js. 
+I build scalable, user-focused applications from frontend to backend, 
+turning complex requirements into elegant solutions.
           </motion.p>
 
           {/* Tech stack tags */}

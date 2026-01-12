@@ -115,7 +115,7 @@ export function Hero() {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, delay: 0.6 }}
             >
-              Crafting
+              Fatima Kingsy
             </motion.span>
             <motion.span 
               className="block text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-violet-400"
@@ -123,7 +123,7 @@ export function Hero() {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, delay: 0.8 }}
             >
-              Experiences
+              Shibani
             </motion.span>
           </h1>
 
